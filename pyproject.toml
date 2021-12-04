@@ -8,27 +8,20 @@ authors = ["Ivan Derkach <jarvis1tube@gmail.com>"]
 python = "^3.9"
 fastapi = "^0.66.1"
 uvicorn = "^0.14.0"
-python-multipart = "^0.0.5"
 python-jose = "^3.3.0"
 passlib = "^1.7.4"
 bcrypt = "^3.2.0"
 python-dotenv = "^0.19.0"
-asyncpg = "^0.23.0"
 dependency-injector = "^4.35.2"
 SQLAlchemy = "^1.4.25"
 alembic = "^1.7.3"
-greenlet = "^1.1.2"
+psycopg2-binary = "^2.9.2"
 
 [tool.poetry.dev-dependencies]
 mypy = "^0.910"
 pylint = "^2.9.3"
 black = "^21.7b0"
-pre-commit = "^2.13.0"
 pytest = "^6.2.4"
-httpx = "^0.18.2"
-ipython = "^7.26.0"
-asynctest = "^0.13.0"
-pytest-asyncio = "^0.15.1"
 sqlalchemy2-stubs = "^0.0.2-alpha.17"
 
 [tool.black]
